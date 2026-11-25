@@ -52,7 +52,11 @@ We have three movies with odd-numbered IDs: 1, 3, and 5. The movie with ID = 3 i
 Solution:
 
 # Write your MySQL query statement below
-select id,movie,description,rating
-from Cinema
-where description!= 'boring' and id % 2 = 1
-order by rating DESC;
+
+SELECT id,
+       movie,
+       description,
+       rating
+FROM Cinema
+WHERE id % 2 = 1 AND description != 'boring'
+ORDER BY rating DESC;
