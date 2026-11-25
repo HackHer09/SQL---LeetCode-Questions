@@ -1,4 +1,4 @@
--- https://leetcode.com/problems/article-views-i/
+https://leetcode.com/problems/article-views-i/
 
 /*
 Table: Views
